@@ -1,0 +1,29 @@
+{
+  "name": "fivem-lua",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "description": "FiveM Lua boilerplate",
+  "author": {
+    "name": "ren",
+    "url": "https://github.com/jotaroxyz"
+  },
+  "keywords": [
+    "fivem",
+    "boilerplate",
+    "lua"
+  ],
+  "bugs": "https://github.com/jotaroxyz/fivem-lua/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jotaroxyz/fivem-lua.git"
+  },
+  "type": "module",
+  "scripts": {
+    "init": "bun run init.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^22"
+  }
+}
